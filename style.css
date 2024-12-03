@@ -1,0 +1,59 @@
+/* Body centered layout with background image */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/022/589/030/large_2x/modern-technology-circle-background-or-abstract-image-in-the-style-of-rtx-on-blueprint-circuitry-lens-flare-light-navy-and-sky-blue-illustration-generative-ai-photo.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire background */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Form container with blur effect */
+.form-container {
+    background: rgba(255, 255, 255, 0.6); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adds a blur effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px; /* Smooth edges */
+    padding: 20px;
+}
+
+/* Form headings and labels */
+h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    color: #555;
+}
+
+/* Form controls */
+.form-control, .form-select, .btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #f8f9fa;
+    color: #333;
+    border-color: #1e88e5;
+    box-shadow: none;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1565c0;
+    border-color: #1565c0;
+}
